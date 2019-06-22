@@ -1,0 +1,11 @@
+Why use RNN instead of a standard nerual network for sequence data?
+1. Inputs,ouptuts can be different lengths in different examples
+2. Doesn't share featrues learned across different sequence data (e.g the different positons of text)
+
+Recurrent Neural Netwrok (RNN)
+ - Problem: it only uses the data before current data,
+ - Solution: use bidirectional RNN
+
+
+Reference:
+1. Deep Learning Specialization - Andrew Ng
